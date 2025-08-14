@@ -7,14 +7,14 @@ Get FinanceApp up and running in under 5 minutes!
 ### Option 1: One-Command Install (Linux/macOS)
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh  # Install uv first
-git clone <your-repo-url>
+git clone https://github.com/Hariharasudhan07/FinanceApp.git
 cd FinanceApp
 ./install.sh  # Run the automated installer
 ```
 
 ### Option 2: Manual Install
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Hariharasudhan07/FinanceApp.git
 cd FinanceApp
 uv sync  # or: pip install -r requirements.txt
 uv run python -m spacy download en_core_web_lg
